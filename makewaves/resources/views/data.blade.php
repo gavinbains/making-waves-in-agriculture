@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Making Waves
+                    This is your data
                 </div>
 
                 <div class="links">
