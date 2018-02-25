@@ -20,6 +20,8 @@ class FarmData extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        Users::where("id", '=', 1)
     }
 
     /**
