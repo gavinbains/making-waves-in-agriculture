@@ -63,33 +63,21 @@
                 margin-bottom: 30px;
             }
         </style>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src={{asset("js/data.js")}}></script>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    This is your data
-                </div>
-
-                <div class="links">
-                    <a href="/data">View Data</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="/welcome">Back</a>
-                </div>
+        <main role="main" ng-app="DataApp" ng-controller="DataCtrl">
+            <button ng-click="getData()">Get Data</button>
+            <td><%data.farm.city%>, <%data.farm.country%></td>
+            <div class="call-summary-container" ng-repeat="week in data.weeks">
+                <td><b>Week <%week.week_number%></b></td>
+                <td>Dissolved Salts: <%week.dissolved_salts%> mg/m^3</td>
+                <td>Electrical Energy: <%week.electrical_energy%> kWh</td>
+                <td>Volume of Irrigation Water: <%week.volume_of_irrigation_water%> Ha-m</td>
+                <td>Soil Reaction pH: <%week.soil_reaction_ph%></td>
             </div>
-        </div>
+        </main>
     </body>
 </html>

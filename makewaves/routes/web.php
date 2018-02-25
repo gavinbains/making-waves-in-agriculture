@@ -15,10 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/data', function () {
+Route::get('/data-page', function () {
     return view('data');
 });
 
 Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::prefix('/data')->group(function() {
+    Route::get('/', 'Controller@getData');
 });
