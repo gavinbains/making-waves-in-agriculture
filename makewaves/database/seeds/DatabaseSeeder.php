@@ -11,19 +11,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
         DB::table('farm_data')->insert(array(
-            array(                                              //99:For Testing
+            array( 
                 'id'=>1,
                 'city'=>'Hangzhou',
                 'country'=>'China'
             ),
-            array(                                              //01:Scheduled
+            array(  
                 'id'=>2,
                 'city'=>'Honolulu',
                 'country'=>'United States'
             ),
-            array(                                              //02:In Progress
+            array(   
                 'id'=>3,
                 'city'=>'San Paulo',
                 'country'=>'Brazil'
@@ -31,7 +30,7 @@ class DatabaseSeeder extends Seeder
         ));
 
         DB::table('week_data')->insert(array(
-            array(                                              //99:For Testing
+            array(
                 'id'=>1,
                 'volume_of_irrigation_water'=>4.5,
                 'electrical_energy'=>3.6,
@@ -41,7 +40,7 @@ class DatabaseSeeder extends Seeder
                 'week_number'=>1,
                 'farm_id'=>1
             ),
-            array(                                              //01:Scheduled
+            array(
                 'id'=>2,
                 'volume_of_irrigation_water'=>4.2,
                 'electrical_energy'=>3.8,
@@ -51,7 +50,7 @@ class DatabaseSeeder extends Seeder
                 'week_number'=>2,
                 'farm_id'=>1
             ),
-            array(                                              //02:In Progress
+            array(
                 'id'=>3,
                 'volume_of_irrigation_water'=>3.9,
                 'electrical_energy'=>3.3,
@@ -60,6 +59,66 @@ class DatabaseSeeder extends Seeder
                 'weight'=>35.5,
                 'week_number'=>3,
                 'farm_id'=>1
+            ),
+            array(
+                'id'=>4,
+                'volume_of_irrigation_water'=>7.8,
+                'electrical_energy'=>6.9,
+                'dissolved_salts'=>7.8,
+                'soil_reaction_ph'=>10.9,
+                'weight'=>33.8,
+                'week_number'=>1,
+                'farm_id'=>2
+            ),
+            array(
+                'id'=>5,
+                'volume_of_irrigation_water'=>7.5,
+                'electrical_energy'=>6.9,
+                'dissolved_salts'=>7.9,
+                'soil_reaction_ph'=>9.9,
+                'weight'=>36.8,
+                'week_number'=>2,
+                'farm_id'=>2
+            ),
+            array(
+                'id'=>6,
+                'volume_of_irrigation_water'=>6.9,
+                'electrical_energy'=>6.6,
+                'dissolved_salts'=>7.7,
+                'soil_reaction_ph'=>10.6,
+                'weight'=>38.8,
+                'week_number'=>3,
+                'farm_id'=>2
+            ),
+            array(
+                'id'=>7,
+                'volume_of_irrigation_water'=>5.5,
+                'electrical_energy'=>4.6,
+                'dissolved_salts'=>5.5,
+                'soil_reaction_ph'=>8.8,
+                'weight'=>31.5,
+                'week_number'=>1,
+                'farm_id'=>3
+            ),
+            array(
+                'id'=>8,
+                'volume_of_irrigation_water'=>5.2,
+                'electrical_energy'=>4.8,
+                'dissolved_salts'=>5.8,
+                'soil_reaction_ph'=>7.8,
+                'weight'=>36.5,
+                'week_number'=>2,
+                'farm_id'=>3
+            ),
+            array(
+                'id'=>9,
+                'volume_of_irrigation_water'=>4.9,
+                'electrical_energy'=>4.3,
+                'dissolved_salts'=>5.4,
+                'soil_reaction_ph'=>8.3,
+                'weight'=>36.5,
+                'week_number'=>3,
+                'farm_id'=>3
             )
         ));
     }
