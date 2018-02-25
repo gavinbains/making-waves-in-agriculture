@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class FarmData extends Migration
 {
+    public $set_schema_table = 'farm_data';
     /**
      * Run the migrations.
      *
@@ -20,8 +21,6 @@ class FarmData extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
-
-        Users::where("id", '=', 1)
     }
 
     /**

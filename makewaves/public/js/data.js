@@ -16,11 +16,11 @@ app.controller('DataCtrl', function ($scope, $http) {
         console.log("GETTING JSON DATA");
     };
 
-    $http.get("http://localhost:3000/db")
+    /*$http.get("http://localhost:3000/db")
     .then(function(response) {
         $scope.data = response.data;
         console.log(response.data);
-    });
+    });*/
     
 
     console.log("RUNNING JS FILE");
