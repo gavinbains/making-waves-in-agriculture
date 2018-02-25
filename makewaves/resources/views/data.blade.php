@@ -63,13 +63,30 @@
                 margin-bottom: 30px;
             }
         </style>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script src={{asset("js/data.js")}}></script>
+        
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="{{asset('n3-charts/build/LineChart.js')}}"></script>
+        <link rel="stylesheet" href="{{'n3-charts/build/LineChart.css'}}">
+
     </head>
     <body>
         <main role="main" ng-app="DataApp" ng-controller="DataCtrl">
-            <button ng-click="getData()">Get Data</button>
+            <div class="my-chart">
+                <linechart data="salt_data" options="salt_options"></linechart>
+            </div>
+            <div class="my-chart">
+                <linechart data="electric_data" options="electric_options"></linechart>
+            </div>
+            <div class="my-chart">
+                <linechart data="volume_data" options="volume_options"></linechart>
+            </div>
+            <div class="my-chart">
+                <linechart data="soil_data" options="soil_options"></linechart>
+            </div>
+            <!-- <button ng-click="getData()">Get Data</button>
             <td><%data.farm.city%>, <%data.farm.country%></td>
             <div class="call-summary-container" ng-repeat="week in data.weeks">
                 <td><b>Week <%week.week_number%></b></td>
@@ -77,7 +94,7 @@
                 <td>Electrical Energy: <%week.electrical_energy%> kWh</td>
                 <td>Volume of Irrigation Water: <%week.volume_of_irrigation_water%> Ha-m</td>
                 <td>Soil Reaction pH: <%week.soil_reaction_ph%></td>
-            </div>
+            </div> -->
         </main>
     </body>
 </html>

@@ -1,95 +1,96 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
 
-        <title>Laravel</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="{{asset('css/theme.css')}}" type="text/css"> </head>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Making Waves
-                </div>
-
-                <div class="links">
-                    <a href="/data-page">View Data</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="/welcome">Back</a>
-                </div>
-            </div>
+<body>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center display-1 text-capitalize border border-primary bg-gradient text-light" id="sd\\">AgriWave</h1>
+          <p class="text-success text-center"><b>We're here to deliver a product that connects the agricultural and data digital world using core technologies in modeling and data analytics to enable a variety of consumers to improve productivity, quality, safety, and sustainability.&nbsp;</b></p>
         </div>
-    </body>
+      </div>
+    </div>
+  </div>
+  <div class="py-7">
+    <div class="container">
+      <div class="row">
+        <div style="margin:auto" class="col-md-15">
+          <a class="btn btn-primary btn-lg btn-block active text-capitalize border border-secondary align-items-center align-self-center justify-content-center text-center p-3 mx-auto" href="data-page" target="_blank">Farming Data </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="pb-4 text-secondary">Features&nbsp;</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="align-self-center text-md-right text-center col-md-4">
+          <h3 class="text-primary">FreeWave Technology</h3>
+          <p class="mb-5">Gathering data in developing countries for agricultural industries on big three crops: soybeans, corn, and wheat</p>
+          <h3 class="text-primary">Data gathered specifics</h3>
+          <p class="mb-5">Volume of irrigation water, electrical energy, dissolved salts, soil reaction, and weight</p>
+          <h3 class="text-primary">Vandalism Detection</h3>
+          <p class="">Utilizing FreeWave sensor to detect unwanted objects for vandalism detection</p>
+        </div>
+        <div class="my-3 col-md-4">
+          <img class="img-fluid d-block ml-1 mx-auto rounded-circle" src="{{asset('img/logo.png')}}"> </div>
+        <div class="align-self-center text-md-left text-center col-md-4">
+          <h3 class="text-primary">Trimble Philosophy</h3>
+          <p class="mb-5">Creating a software to transform a broad range of industries in agriculture and logistics</p>
+          <h3 class="text-primary">World's largest industry</h3>
+          <p class="mb-5">Agriculture is the world's largest industry, employing more than one billion people and generating over $1.3 trillion dollars annually</p>
+          <h3 class="text-primary">Technology</h3>
+          <p>Utilizing AWS, WAMP, Raspberry Pi, Laravel, Alteryx, FreeWave, Alexa, PHP, HTML</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i__1Z5a9Sak?autoplay=0" allowfullscreen=""> </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <div style="margin:auto;">
+              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Farming Data </button>
+            </div>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
 </html>
