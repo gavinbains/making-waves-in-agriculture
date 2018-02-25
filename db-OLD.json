@@ -1,0 +1,372 @@
+{
+	"farm" : {
+		"city" : "hang",
+		"country" : "china"
+	},
+	"weeks" : [
+		{
+			"dissolved_salts" : 9.84019,
+			"electrical_energy" : 4.7831,
+			"volume_of_irrigation_water" : 1.91165,
+			"soil_reaction_ph" : 3.33522,
+			"week_number" : 1
+		},
+		{
+			"dissolved_salts" : 7.27777,
+			"electrical_energy" : 3.4774,
+			"volume_of_irrigation_water" : 4.36478,
+			"soil_reaction_ph" : 1.95223,
+			"week_number" : 2
+		},
+		{
+			"dissolved_salts" : 10.6357,
+			"electrical_energy" : 11.1416,
+			"volume_of_irrigation_water" : 8.0163,
+			"soil_reaction_ph" : 3.13723,
+			"week_number" : 3
+		},
+		{
+			"dissolved_salts" : 5.15668,
+			"electrical_energy" : 3.12979,
+			"volume_of_irrigation_water" : 4.99892,
+			"soil_reaction_ph" : 12.5129,
+			"week_number" : 4
+		},
+		{
+			"dissolved_salts" : 9.61264,
+			"electrical_energy" : 4.63755,
+			"volume_of_irrigation_water" : 5.49358,
+			"soil_reaction_ph" : 11.2925,
+			"week_number" : 5
+		},
+		{
+			"dissolved_salts" : 11.5267,
+			"electrical_energy" : 1.40023,
+			"volume_of_irrigation_water" : 5.28331,
+			"soil_reaction_ph" : 0.807725,
+			"week_number" : 6
+		},
+		{
+			"dissolved_salts" : 2.06976,
+			"electrical_energy" : 11.526,
+			"volume_of_irrigation_water" : 4.19221,
+			"soil_reaction_ph" : 3.89023,
+			"week_number" : 7
+		},
+		{
+			"dissolved_salts" : 6.06417,
+			"electrical_energy" : 10.4577,
+			"volume_of_irrigation_water" : 2.23828,
+			"soil_reaction_ph" : 11.9022,
+			"week_number" : 8
+		},
+		{
+			"dissolved_salts" : 4.26667,
+			"electrical_energy" : 11.3752,
+			"volume_of_irrigation_water" : 0.512535,
+			"soil_reaction_ph" : 2.53161,
+			"week_number" : 9
+		},
+		{
+			"dissolved_salts" : 2.43764,
+			"electrical_energy" : 5.93081,
+			"volume_of_irrigation_water" : 10.2843,
+			"soil_reaction_ph" : 1.63998,
+			"week_number" : 10
+		},
+		{
+			"dissolved_salts" : 10.6879,
+			"electrical_energy" : 2.4401,
+			"volume_of_irrigation_water" : 3.8292,
+			"soil_reaction_ph" : 0.228968,
+			"week_number" : 11
+		},
+		{
+			"dissolved_salts" : 0.35036,
+			"electrical_energy" : 7.95647,
+			"volume_of_irrigation_water" : 9.6573,
+			"soil_reaction_ph" : 5.43956,
+			"week_number" : 12
+		},
+		{
+			"dissolved_salts" : 12.3984,
+			"electrical_energy" : 1.68422,
+			"volume_of_irrigation_water" : 7.48249,
+			"soil_reaction_ph" : 2.95025,
+			"week_number" : 13
+		},
+		{
+			"dissolved_salts" : 9.14766,
+			"electrical_energy" : 8.64108,
+			"volume_of_irrigation_water" : 5.6196,
+			"soil_reaction_ph" : 12.786,
+			"week_number" : 14
+		},
+		{
+			"dissolved_salts" : 10.447,
+			"electrical_energy" : 6.18753,
+			"volume_of_irrigation_water" : 10.5564,
+			"soil_reaction_ph" : 10.1696,
+			"week_number" : 15
+		},
+		{
+			"dissolved_salts" : 8.10317,
+			"electrical_energy" : 4.49544,
+			"volume_of_irrigation_water" : 1.98475,
+			"soil_reaction_ph" : 9.68445,
+			"week_number" : 16
+		},
+		{
+			"dissolved_salts" : 6.74977,
+			"electrical_energy" : 5.29416,
+			"volume_of_irrigation_water" : 5.58449,
+			"soil_reaction_ph" : 12.1524,
+			"week_number" : 17
+		},
+		{
+			"dissolved_salts" : 5.12547,
+			"electrical_energy" : 12.1641,
+			"volume_of_irrigation_water" : 5.07453,
+			"soil_reaction_ph" : 3.05253,
+			"week_number" : 18
+		},
+		{
+			"dissolved_salts" : 4.17621,
+			"electrical_energy" : 5.7978,
+			"volume_of_irrigation_water" : 5.65656,
+			"soil_reaction_ph" : 1.63946,
+			"week_number" : 19
+		},
+		{
+			"dissolved_salts" : 0.0934805,
+			"electrical_energy" : 8.52021,
+			"volume_of_irrigation_water" : 7.06991,
+			"soil_reaction_ph" : 5.46142,
+			"week_number" : 20
+		},
+		{
+			"dissolved_salts" : 5.57332,
+			"electrical_energy" : 3.05194,
+			"volume_of_irrigation_water" : 9.99999,
+			"soil_reaction_ph" : 3.88996,
+			"week_number" : 21
+		},
+		{
+			"dissolved_salts" : 0.997799,
+			"electrical_energy" : 4.87054,
+			"volume_of_irrigation_water" : 2.00416,
+			"soil_reaction_ph" : 12.5939,
+			"week_number" : 22
+		},
+		{
+			"dissolved_salts" : 5.16313,
+			"electrical_energy" : 10.913,
+			"volume_of_irrigation_water" : 11.3591,
+			"soil_reaction_ph" : 1.57943,
+			"week_number" : 23
+		},
+		{
+			"dissolved_salts" : 9.68739,
+			"electrical_energy" : 2.53081,
+			"volume_of_irrigation_water" : 2.3043,
+			"soil_reaction_ph" : 4.57697,
+			"week_number" : 24
+		},
+		{
+			"dissolved_salts" : 10.7478,
+			"electrical_energy" : 8.03542,
+			"volume_of_irrigation_water" : 12.8332,
+			"soil_reaction_ph" : 10.8733,
+			"week_number" : 25
+		},
+		{
+			"dissolved_salts" : 2.97943,
+			"electrical_energy" : 7.90337,
+			"volume_of_irrigation_water" : 10.6669,
+			"soil_reaction_ph" : 2.16397,
+			"week_number" : 26
+		},
+		{
+			"dissolved_salts" : 2.88895,
+			"electrical_energy" : 4.64971,
+			"volume_of_irrigation_water" : 3.62948,
+			"soil_reaction_ph" : 1.70062,
+			"week_number" : 27
+		},
+		{
+			"dissolved_salts" : 5.32878,
+			"electrical_energy" : 3.07416,
+			"volume_of_irrigation_water" : 3.22366,
+			"soil_reaction_ph" : 5.51069,
+			"week_number" : 28
+		},
+		{
+			"dissolved_salts" : 6.28004,
+			"electrical_energy" : 10.7193,
+			"volume_of_irrigation_water" : 3.47148,
+			"soil_reaction_ph" : 10.9443,
+			"week_number" : 29
+		},
+		{
+			"dissolved_salts" : 11.3364,
+			"electrical_energy" : 3.43451,
+			"volume_of_irrigation_water" : 2.34494,
+			"soil_reaction_ph" : 3.83324,
+			"week_number" : 30
+		},
+		{
+			"dissolved_salts" : 9.67548,
+			"electrical_energy" : 6.48194,
+			"volume_of_irrigation_water" : 2.71209,
+			"soil_reaction_ph" : 1.62182,
+			"week_number" : 31
+		},
+		{
+			"dissolved_salts" : 1.41398,
+			"electrical_energy" : 3.67394,
+			"volume_of_irrigation_water" : 3.34712,
+			"soil_reaction_ph" : 8.60911,
+			"week_number" : 32
+		},
+		{
+			"dissolved_salts" : 2.73073,
+			"electrical_energy" : 6.74044,
+			"volume_of_irrigation_water" : 2.92091,
+			"soil_reaction_ph" : 1.65313,
+			"week_number" : 33
+		},
+		{
+			"dissolved_salts" : 12.5324,
+			"electrical_energy" : 1.2605,
+			"volume_of_irrigation_water" : 0.686125,
+			"soil_reaction_ph" : 7.11128,
+			"week_number" : 34
+		},
+		{
+			"dissolved_salts" : 0.576691,
+			"electrical_energy" : 11.6666,
+			"volume_of_irrigation_water" : 10.7758,
+			"soil_reaction_ph" : 12.3296,
+			"week_number" : 35
+		},
+		{
+			"dissolved_salts" : 6.98436,
+			"electrical_energy" : 6.82739,
+			"volume_of_irrigation_water" : 2.1882,
+			"soil_reaction_ph" : 6.95864,
+			"week_number" : 36
+		},
+		{
+			"dissolved_salts" : 9.76487,
+			"electrical_energy" : 11.1211,
+			"volume_of_irrigation_water" : 5.38383,
+			"soil_reaction_ph" : 3.94305,
+			"week_number" : 37
+		},
+		{
+			"dissolved_salts" : 7.86192,
+			"electrical_energy" : 7.79366,
+			"volume_of_irrigation_water" : 12.2973,
+			"soil_reaction_ph" : 3.90964,
+			"week_number" : 38
+		},
+		{
+			"dissolved_salts" : 3.49814,
+			"electrical_energy" : 7.16276,
+			"volume_of_irrigation_water" : 4.86458,
+			"soil_reaction_ph" : 1.46366,
+			"week_number" : 39
+		},
+		{
+			"dissolved_salts" : 11.496,
+			"electrical_energy" : 7.18042,
+			"volume_of_irrigation_water" : 0.72755,
+			"soil_reaction_ph" : 7.60311,
+			"week_number" : 40
+		},
+		{
+			"dissolved_salts" : 3.83813,
+			"electrical_energy" : 12.1782,
+			"volume_of_irrigation_water" : 10.4985,
+			"soil_reaction_ph" : 3.13824,
+			"week_number" : 41
+		},
+		{
+			"dissolved_salts" : 11.3248,
+			"electrical_energy" : 11.9085,
+			"volume_of_irrigation_water" : 0.836828,
+			"soil_reaction_ph" : 3.49607,
+			"week_number" : 42
+		},
+		{
+			"dissolved_salts" : 7.39433,
+			"electrical_energy" : 9.60888,
+			"volume_of_irrigation_water" : 6.15123,
+			"soil_reaction_ph" : 11.1078,
+			"week_number" : 43
+		},
+		{
+			"dissolved_salts" : 9.3636,
+			"electrical_energy" : 7.33139,
+			"volume_of_irrigation_water" : 9.42733,
+			"soil_reaction_ph" : 8.58357,
+			"week_number" : 44
+		},
+		{
+			"dissolved_salts" : 10.6587,
+			"electrical_energy" : 1.48743,
+			"volume_of_irrigation_water" : 12.883,
+			"soil_reaction_ph" : 0.517715,
+			"week_number" : 45
+		},
+		{
+			"dissolved_salts" : 4.55756,
+			"electrical_energy" : 0.829939,
+			"volume_of_irrigation_water" : 3.24433,
+			"soil_reaction_ph" : 12.7294,
+			"week_number" : 46
+		},
+		{
+			"dissolved_salts" : 3.98484,
+			"electrical_energy" : 0.89756,
+			"volume_of_irrigation_water" : 10.4108,
+			"soil_reaction_ph" : 1.78328,
+			"week_number" : 47
+		},
+		{
+			"dissolved_salts" : 7.29368,
+			"electrical_energy" : 3.86553,
+			"volume_of_irrigation_water" : 12.0492,
+			"soil_reaction_ph" : 7.98647,
+			"week_number" : 48
+		},
+		{
+			"dissolved_salts" : 8.21088,
+			"electrical_energy" : 7.86518,
+			"volume_of_irrigation_water" : 1.09956,
+			"soil_reaction_ph" : 8.30176,
+			"week_number" : 49
+		},
+		{
+			"dissolved_salts" : 7.8091,
+			"electrical_energy" : 1.05151,
+			"volume_of_irrigation_water" : 2.45772,
+			"soil_reaction_ph" : 11.6921,
+			"week_number" : 50
+		},
+		{
+			"dissolved_salts" : 11.1191,
+			"electrical_energy" : 4.57863,
+			"volume_of_irrigation_water" : 12.595,
+			"soil_reaction_ph" : 1.30429,
+			"week_number" : 51
+		},
+		{
+			"dissolved_salts" : 4.47658,
+			"electrical_energy" : 12.6097,
+			"volume_of_irrigation_water" : 8.61893,
+			"soil_reaction_ph" : 2.23366,
+			"week_number" : 52
+		}
+	]
+}

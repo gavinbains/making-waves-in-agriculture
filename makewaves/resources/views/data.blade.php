@@ -12,6 +12,10 @@
 
         <!-- Styles -->
         <style>
+            .my-chart {
+                margin-bottom: 30px;
+            }
+
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -62,6 +66,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            #location h1 {
+                text-align: center;
+            }
         </style>
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -71,30 +79,39 @@
         <script src="{{asset('n3-charts/build/LineChart.js')}}"></script>
         <link rel="stylesheet" href="{{'n3-charts/build/LineChart.css'}}">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="{{asset('css/theme.css')}}" type="text/css"> </head>
+
     </head>
     <body>
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center display-1 text-capitalize border border-primary bg-gradient text-light" id="sd\\">AgriWave</h1>
+                        <p class="text-success text-center"><b>We're here to deliver a product that connects the agricultural and data digital world using core technologies in modeling and data analytics to enable a variety of consumers to improve productivity, quality, safety, and sustainability.&nbsp;</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <main role="main" ng-app="DataApp" ng-controller="DataCtrl">
-            <div class="my-chart">
-                <linechart data="salt_data" options="salt_options"></linechart>
+            <div ng-cloak>
+                <div id="location">
+                    <h1> <%data.farm.city%>, <%data.farm.country%> </h1>
+                </div>
+                <div class="my-chart">
+                    <linechart data="salt_data" options="salt_options"></linechart>
+                </div> <br>
+                <div class="my-chart">
+                    <linechart data="electric_data" options="electric_options"></linechart>
+                </div> <br>
+                <div class="my-chart">
+                    <linechart data="volume_data" options="volume_options"></linechart>
+                </div> <br>
+                <div class="my-chart">
+                    <linechart data="soil_data" options="soil_options"></linechart>
+                </div>
             </div>
-            <div class="my-chart">
-                <linechart data="electric_data" options="electric_options"></linechart>
-            </div>
-            <div class="my-chart">
-                <linechart data="volume_data" options="volume_options"></linechart>
-            </div>
-            <div class="my-chart">
-                <linechart data="soil_data" options="soil_options"></linechart>
-            </div>
-            <!-- <button ng-click="getData()">Get Data</button>
-            <td><%data.farm.city%>, <%data.farm.country%></td>
-            <div class="call-summary-container" ng-repeat="week in data.weeks">
-                <td><b>Week <%week.week_number%></b></td>
-                <td>Dissolved Salts: <%week.dissolved_salts%> mg/m^3</td>
-                <td>Electrical Energy: <%week.electrical_energy%> kWh</td>
-                <td>Volume of Irrigation Water: <%week.volume_of_irrigation_water%> Ha-m</td>
-                <td>Soil Reaction pH: <%week.soil_reaction_ph%></td>
-            </div> -->
         </main>
     </body>
 </html>

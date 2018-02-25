@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class WeekData extends Migration
 {
+    public $set_schema_table = 'week_data';
     /**
      * Run the migrations.
      *
@@ -20,7 +21,7 @@ class WeekData extends Migration
             $table->double('electrical_energy', 8, 2);
             $table->double('dissolved_salts', 8, 2);
             $table->double('soil_reaction_ph', 8, 2);
-            $table->double('weight', 8, 2);
+            $table->double('weight', 8, 2)->nullable();
             $table->integer('week_number');
             $table->rememberToken();
             $table->timestamps();

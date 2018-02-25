@@ -19,21 +19,12 @@ app.controller('DataCtrl', function ($scope, $http) {
         dataset3: []
     };
 
-    $scope.getData = function(id) {
-        $http({
-            method: 'GET',
-            url: '/data'
-        }).then(function successCallback(response) {
-            $scope.data = response.data;
-            console.log("GET RESPONSE");
-        });
-        console.log("GETTING JSON DATA");
-    };
-
-    $http.get("http://localhost:3000/db")
-    .then(function(response) {
+    
+    $http({
+        method: 'GET',
+        url: '/data'
+    }).then(function successCallback(response) {
         $scope.data = response.data;
-        console.log($scope.data);
         for(var i=0; i<52; i++) {
             var salt = {
                         "x": i+1,
@@ -56,8 +47,9 @@ app.controller('DataCtrl', function ($scope, $http) {
             $scope.volume_data.dataset2.push(volume);
             $scope.soil_data.dataset3.push(soil);
         }
-        console.log($scope.graph_data);
+        console.log("GET RESPONSE");
     });
+    console.log("GETTING JSON DATA");
 
     $scope.salt_options = {
         series: [
@@ -115,7 +107,6 @@ app.controller('DataCtrl', function ($scope, $http) {
         ],
         axes: {x: {key: "x"}}
     };
-    
 
     console.log("RUNNING JS FILE");
 });
