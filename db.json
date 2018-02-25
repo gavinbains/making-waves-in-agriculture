@@ -1,6 +1,6 @@
 {
 	"farm" : {
-		"city" : "Sanpaulo",
+		"city" : "San Paulo",
 		"country" : "Brazil"
 	},
 	"weeks" : [
@@ -267,13 +267,13 @@
 			"dissolved_salts" : 10.40,
 			"electrical_energy" : 56,
 			"volume_of_irrigation_water" : 388,
-			"soil_reaction_ph" : 7,
+			"soil_reaction_ph" : 10,
 			"week_number" : 38
 		},
 		{
 			"dissolved_salts" : 11.50,
 			"electrical_energy" : 52.85,
-			"volume_of_irrigation_water" : 356,
+			"volume_of_irrigation_water" : 500,
 			"soil_reaction_ph" : 8,
 			"week_number" : 39
 		},

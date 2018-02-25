@@ -5,7 +5,10 @@ var app = angular.module('DataApp', ['n3-line-chart'], function($interpolateProv
 
 app.controller('DataCtrl', function ($scope, $http) {
     $scope.data;
-
+    $scope.salt_alerts = [];
+    $scope.electric_alerts = [];
+    $scope.volume_alerts = [];
+    $scope.soil_alerts = [];
     $scope.salt_data = {
         dataset0: []
     };
@@ -48,8 +51,90 @@ app.controller('DataCtrl', function ($scope, $http) {
             $scope.soil_data.dataset3.push(soil);
         }
         console.log("GET RESPONSE");
+
+        var last_salt = -1;
+        var last_electric = -1;
+        var last_volume = -1;
+        var last_soil = -1;
+
+        for(var i=1; i<52; i++) {
+            var prev = $scope.data.weeks[i-1];
+            var curr = $scope.data.weeks[i];
+            
+            if(Math.abs(curr.dissolved_salts-prev.dissolved_salts) > 3.3 && last_salt+1!=i) {
+                var s_or_d = "";
+                if(curr.dissolved_salts-prev.dissolved_salts>0) {
+                    s_or_d = "spike";
+                }
+                else {
+                    s_or_d = "drop";
+                }
+                var alert = {
+                    "alert_type" : s_or_d,
+                    "week_number" : i+1,
+                    "discrepancy" : Math.abs(curr.dissolved_salts-prev.dissolved_salts).toFixed(2)
+                }
+                $scope.salt_alerts.push(alert);
+                last_salt = i;
+            }
+
+            if(Math.abs(curr.electrical_energy-prev.electrical_energy) > 15 && last_electric+1!=i) {
+                var s_or_d = "";
+                if(curr.electrical_energy-prev.electrical_energy>0) {
+                    s_or_d = "spike";
+                }
+                else {
+                    s_or_d = "drop";
+                }
+                var alert = {
+                    "alert_type" : s_or_d,
+                    "week_number" : i+1,
+                    "discrepancy" : Math.abs(curr.electrical_energy-prev.electrical_energy).toFixed(2)
+                }
+                $scope.electric_alerts.push(alert);
+                last_electric = i;
+                console.log(last_electric + " " + i);
+            }
+
+            if(Math.abs(curr.volume_of_irrigation_water-prev.volume_of_irrigation_water) > 100 && last_volume+1!=i) {
+                var s_or_d = "";
+                if(curr.volume_of_irrigation_water-prev.volume_of_irrigation_water>0) {
+                    s_or_d = "spike";
+                }
+                else {
+                    s_or_d = "drop";
+                }
+                var alert = {
+                    "alert_type" : s_or_d,
+                    "week_number" : i+1,
+                    "discrepancy" : Math.abs(curr.volume_of_irrigation_water-prev.volume_of_irrigation_water).toFixed(2)
+                }
+                $scope.volume_alerts.push(alert);
+                last_volume = i;
+            }
+
+            if(Math.abs(curr.soil_reaction_ph-prev.soil_reaction_ph) >= 5.0 && last_soil+1!=i) {
+                var s_or_d = "";
+                if(curr.soil_reaction_ph-prev.soil_reaction_ph>0) {
+                    s_or_d = "spike";
+                }
+                else {
+                    s_or_d = "drop";
+                }
+                var alert = {
+                    "alert_type" : s_or_d,
+                    "week_number" : i+1,
+                    "discrepancy" : Math.abs(curr.soil_reaction_ph-prev.soil_reaction_ph).toFixed(2)
+                }
+                $scope.soil_alerts.push(alert);
+                last_soil = i;
+            }
+        }
+        console.log($scope.salt_alerts);
+        console.log($scope.electric_alerts);
+        console.log($scope.volume_alerts);
+        console.log($scope.soil_alerts);
     });
-    console.log("GETTING JSON DATA");
 
     $scope.salt_options = {
         series: [
@@ -107,6 +192,4 @@ app.controller('DataCtrl', function ($scope, $http) {
         ],
         axes: {x: {key: "x"}}
     };
-
-    console.log("RUNNING JS FILE");
 });

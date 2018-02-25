@@ -51,7 +51,7 @@
           <h3 class="text-primary">World's largest industry</h3>
           <p class="mb-5">Agriculture is the world's largest industry, employing more than one billion people and generating over $1.3 trillion dollars annually</p>
           <h3 class="text-primary">Technology</h3>
-          <p>Utilizing AWS, WAMP, Raspberry Pi, Laravel, Alteryx, FreeWave, Alexa, PHP, HTML</p>
+          <p>Utilizing WAMP, Laravel, Alteryx, FreeWave, Alexa, AngularJS</p>
         </div>
       </div>
     </div>
