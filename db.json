@@ -1,314 +1,186 @@
 {
-  "week1": {
-    "dissolved_salts": 9.5,
-    "electrical_energy": 3.6,
-    "volume_of_irrigation_water": 48,
-    "soil_reaction_ph": 15
-  },
-  "week2": {
-    "dissolved_salts": 8.7,
-    "electrical_energy": 3.8,
-    "volume_of_irrigation_water": 45,
-    "soil_reaction_ph": 16
-  },
-  "week3": {
-    "dissolved_salts": 8.9,
-    "electrical_energy": 3.3,
-    "volume_of_irrigation_water": 42,
-    "soil_reaction_ph": 12
-  },
-  "week4": {
-    "dissolved_salts": 6.5,
-    "electrical_energy": 4.1,
-    "volume_of_irrigation_water": 41,
-    "soil_reaction_ph": 11
-  },
-  "week5": {
-    "dissolved_salts": 6.3,
-    "electrical_energy": 5.6,
-    "volume_of_irrigation_water": 56,
-    "soil_reaction_ph": 14
-  },
-  "week6": {
-    "dissolved_salts": 4.3,
-    "electrical_energy": 5.7,
-    "volume_of_irrigation_water": 59.3,
-    "soil_reaction_ph": 16.3
-  },
-  "week7": {
-    "dissolved_salts": 2.5,
-    "electrical_energy": 5.1,
-    "volume_of_irrigation_water": 56.1,
-    "soil_reaction_ph": 14
-  },
-  "week8": {
-    "dissolved_salts": 2.5,
-    "electrical_energy": 5.1,
-    "volume_of_irrigation_water": 56.1,
-    "soil_reaction_ph": 14
-  },
-  "week9": {
-    "dissolved_salts": 2.3,
-    "electrical_energy": 7.4,
-    "volume_of_irrigation_water": 60.2,
-    "soil_reaction_ph": 16
-  },
-  "week10": {
-    "dissolved_salts": 1.4,
-    "electrical_energy": 10.3,
-    "volume_of_irrigation_water": 45.6,
-    "soil_reaction_ph": 12.4
-  },
-  "week11": {
-    "dissolved_salts": 4.3,
-    "electrical_energy": 10.4,
-    "volume_of_irrigation_water": 46.7,
-    "soil_reaction_ph": 15.4
-  },
-  "week12": {
-    "dissolved_salts": 3.2,
-    "electrical_energy": 14.5,
-    "volume_of_irrigation_water": 39.34,
-    "soil_reaction_ph": 16.4
-  },
-  "week13": {
-    "dissolved_salts": 5.7,
-    "electrical_energy": 16.2,
-    "volume_of_irrigation_water": 40.5,
-    "soil_reaction_ph": 49.5
-  },
-  "week14": {
-    "dissolved_salts": 5.7,
-    "electrical_energy": 16.2,
-    "volume_of_irrigation_water": 40.5,
-    "soil_reaction_ph": 49.5
-  },
-  "week15": {
-    "dissolved_salts": 5.3,
-    "electrical_energy": 6.6,
-    "volume_of_irrigation_water": 52,
-    "soil_reaction_ph": 11
-  },
-  "week16": {
-    "dissolved_salts": 6.3,
-    "electrical_energy": 8.7,
-    "volume_of_irrigation_water": 62.5,
-    "soil_reaction_ph": 19.3
-  },
-  "week17": {
-    "dissolved_salts": 3.8,
-    "electrical_energy": 6.3,
-    "volume_of_irrigation_water": 60.2,
-    "soil_reaction_ph": 18
-  },
-  "week18": {
-    "dissolved_salts": 5.6,
-    "electrical_energy": 7.8,
-    "volume_of_irrigation_water": 65.5,
-    "soil_reaction_ph": 16.8
-  },
-  "week19": {
-    "dissolved_salts": 4.23,
-    "electrical_energy": 7.85,
-    "volume_of_irrigation_water": 60.24,
-    "soil_reaction_ph": 16.25
-  },
-  "week20": {
-    "dissolved_salts": 3.49,
-    "electrical_energy": 14.59,
-    "volume_of_irrigation_water": 53.18,
-    "soil_reaction_ph": 16.29
-  },
-  "week21": {
-    "dissolved_salts": 10.15,
-    "electrical_energy": 4.21,
-    "volume_of_irrigation_water": 62.14,
-    "soil_reaction_ph": 9.42
-  },
-  "week22": {
-    "dissolved_salts": 4.6,
-    "electrical_energy": 8.94,
-    "volume_of_irrigation_water": 34.12,
-    "soil_reaction_ph": 16.39
-  },
-  "week23": {
-    "dissolved_salts": 9.15,
-    "electrical_energy": 6.29,
-    "volume_of_irrigation_water": 44.59,
-    "soil_reaction_ph": 14.59
-  },
-  "week24": {
-    "dissolved_salts": 6.69,
-    "electrical_energy": 4.19,
-    "volume_of_irrigation_water": 53.49,
-    "soil_reaction_ph": 11.94
-  },
-  "week25": {
-    "dissolved_salts": 10.39,
-    "electrical_energy": 62.43,
-    "volume_of_irrigation_water": 56.19,
-    "soil_reaction_ph": 8.93
-  },
-  "week26": {
-    "dissolved_salts": 4.3,
-    "electrical_energy": 5.7,
-    "volume_of_irrigation_water": 59.3,
-    "soil_reaction_ph": 16.3
-  },
-  "week27": {
-    "dissolved_salts": 8.38,
-    "electrical_energy": 9.14,
-    "volume_of_irrigation_water": 44.38,
-    "soil_reaction_ph": 11.04
-  },
-  "week28": {
-    "dissolved_salts": 6.98,
-    "electrical_energy": 10.48,
-    "volume_of_irrigation_water": 66.41,
-    "soil_reaction_ph": 10.29
-  },
-  "week29": {
-    "dissolved_salts": 39.43,
-    "electrical_energy": 11.99,
-    "volume_of_irrigation_water": 77.53,
-    "soil_reaction_ph": 19.42
-  },
-  "week30": {
-    "dissolved_salts": 4,
-    "electrical_energy": 48,
-    "volume_of_irrigation_water": 66,
-    "soil_reaction_ph": 13.25
-  },
-  "week31": {
-    "dissolved_salts": 9.5,
-    "electrical_energy": 3.6,
-    "volume_of_irrigation_water": 48,
-    "soil_reaction_ph": 15
-  },
-  "week32": {
-    "dissolved_salts": 5.5,
-    "electrical_energy": 6.6,
-    "volume_of_irrigation_water": 49.25,
-    "soil_reaction_ph": 19.84
-  },
-  "week33": {
-    "dissolved_salts": 6.53,
-    "electrical_energy": 3.67,
-    "volume_of_irrigation_water": 59.34,
-    "soil_reaction_ph": 16.14
-  },
-  "week34": {
-    "dissolved_salts": 11.11,
-    "electrical_energy": 5.6,
-    "volume_of_irrigation_water": 41.52,
-    "soil_reaction_ph": 11.33
-  },
-  "week35": {
-    "dissolved_salts": 6.39,
-    "electrical_energy": 5.64,
-    "volume_of_irrigation_water": 56.21,
-    "soil_reaction_ph": 14.56
-  },
-  "week36": {
-    "dissolved_salts": 11.13,
-    "electrical_energy": 6.94,
-    "volume_of_irrigation_water": 62.32,
-    "soil_reaction_ph": 11.4
-  },
-  "week37": {
-    "dissolved_salts": 5.42,
-    "electrical_energy": 6.79,
-    "volume_of_irrigation_water": 66.72,
-    "soil_reaction_ph": 11.95
-  },
-  "week38": {
-    "dissolved_salts": 4.42,
-    "electrical_energy": 6.22,
-    "volume_of_irrigation_water": 72.24,
-    "soil_reaction_ph": 14.22
-  },
-  "week39": {
-    "dissolved_salts": 3.42,
-    "electrical_energy": 7.45,
-    "volume_of_irrigation_water": 60.23,
-    "soil_reaction_ph": 16.68
-  },
-  "week40": {
-    "dissolved_salts": 3.34,
-    "electrical_energy": 12.24,
-    "volume_of_irrigation_water": 46.82,
-    "soil_reaction_ph": 12.42
-  },
-  "week41": {
-    "dissolved_salts": 9.48,
-    "electrical_energy": 3.64,
-    "volume_of_irrigation_water": 48.38,
-    "soil_reaction_ph": 15.62
-  },
-  "week42": {
-    "dissolved_salts": 8.73,
-    "electrical_energy": 3.84,
-    "volume_of_irrigation_water": 45.56,
-    "soil_reaction_ph": 16.78
-  },
-  "week43": {
-    "dissolved_salts": 8.91,
-    "electrical_energy": 3.34,
-    "volume_of_irrigation_water": 42.66,
-    "soil_reaction_ph": 12.23
-  },
-  "week44": {
-    "dissolved_salts": 9.28,
-    "electrical_energy": 5.23,
-    "volume_of_irrigation_water": 58.11,
-    "soil_reaction_ph": 13.48
-  },
-  "week45": {
-    "dissolved_salts": 6.32,
-    "electrical_energy": 5.65,
-    "volume_of_irrigation_water": 56.4,
-    "soil_reaction_ph": 14.1
-  },
-  "week46": {
-    "dissolved_salts": 4.34,
-    "electrical_energy": 5.75,
-    "volume_of_irrigation_water": 59.37,
-    "soil_reaction_ph": 16.31
-  },
-  "week47": {
-    "dissolved_salts": 6.28,
-    "electrical_energy": 4.82,
-    "volume_of_irrigation_water": 60.39,
-    "soil_reaction_ph": 14.18
-  },
-  "week48": {
-    "dissolved_salts": 4.28,
-    "electrical_energy": 6.23,
-    "volume_of_irrigation_water": 59.12,
-    "soil_reaction_ph": 12.48
-  },
-  "week49": {
-    "dissolved_salts": 2.34,
-    "electrical_energy": 7.45,
-    "volume_of_irrigation_water": 60.26,
-    "soil_reaction_ph": 16.24
-  },
-  "week50": {
-    "dissolved_salts": 1.55,
-    "electrical_energy": 13.43,
-    "volume_of_irrigation_water": 33.48,
-    "soil_reaction_ph": 12.46
-  },
-  "week51": {
-    "dissolved_salts": 9.56,
-    "electrical_energy": 3.62,
-    "volume_of_irrigation_water": 48.4,
-    "soil_reaction_ph": 15.3
-  },
-  "week52": {
-    "dissolved_salts": 9.56,
-    "electrical_energy": 3.62,
-    "volume_of_irrigation_water": 48.4,
-    "soil_reaction_ph": 15.3
-  }
+  "City": "Hangzhou",
+  "Country":"China",
+  "weeks": [
+    {
+      "dissolved_salts": 9.5,
+      "electrical_energy": 3.6,
+      "volume_of_irrigation_water": 48,
+      "soil_reaction_ph": 15
+    },
+    {
+      "dissolved_salts": 8.7,
+      "electrical_energy": 3.8,
+      "volume_of_irrigation_water": 45,
+      "soil_reaction_ph": 16
+    },
+    {
+      "dissolved_salts": 8.9,
+      "electrical_energy": 3.3,
+      "volume_of_irrigation_water": 42,
+      "soil_reaction_ph": 12
+    },
+    {
+      "dissolved_salts": 6.5,
+      "electrical_energy": 4.1,
+      "volume_of_irrigation_water": 41,
+      "soil_reaction_ph": 11
+    },
+    {
+      "dissolved_salts": 6.3,
+      "electrical_energy": 5.6,
+      "volume_of_irrigation_water": 56,
+      "soil_reaction_ph": 14
+    },
+    {
+      "dissolved_salts": 4.3,
+      "electrical_energy": 5.7,
+      "volume_of_irrigation_water": 59.3,
+      "soil_reaction_ph": 16.3
+    },
+    {
+      "dissolved_salts": 2.5,
+      "electrical_energy": 5.1,
+      "volume_of_irrigation_water": 56.1,
+      "soil_reaction_ph": 14
+    },
+    {
+      "dissolved_salts": 2.5,
+      "electrical_energy": 5.1,
+      "volume_of_irrigation_water": 56.1,
+      "soil_reaction_ph": 14
+    },
+    {
+      "dissolved_salts": 2.3,
+      "electrical_energy": 7.4,
+      "volume_of_irrigation_water": 60.2,
+      "soil_reaction_ph": 16
+    },
+    {
+      "dissolved_salts": 1.4,
+      "electrical_energy": 10.3,
+      "volume_of_irrigation_water": 45.6,
+      "soil_reaction_ph": 12.4
+    },
+    {
+      "dissolved_salts": 4.3,
+      "electrical_energy": 10.4,
+      "volume_of_irrigation_water": 46.7,
+      "soil_reaction_ph": 15.4
+    },
+    {
+      "dissolved_salts": 3.2,
+      "electrical_energy": 14.5,
+      "volume_of_irrigation_water": 39.34,
+      "soil_reaction_ph": 16.4
+    },
+    {
+      "dissolved_salts": 5.7,
+      "electrical_energy": 16.2,
+      "volume_of_irrigation_water": 40.5,
+      "soil_reaction_ph": 49.5
+    },
+    {
+      "dissolved_salts": 5.7,
+      "electrical_energy": 16.2,
+      "volume_of_irrigation_water": 40.5,
+      "soil_reaction_ph": 49.5
+    },
+    {
+      "dissolved_salts": 5.3,
+      "electrical_energy": 6.6,
+      "volume_of_irrigation_water": 52,
+      "soil_reaction_ph": 11
+    },
+    {
+      "dissolved_salts": 6.3,
+      "electrical_energy": 8.7,
+      "volume_of_irrigation_water": 62.5,
+      "soil_reaction_ph": 19.3
+    },
+    {
+      "dissolved_salts": 3.8,
+      "electrical_energy": 6.3,
+      "volume_of_irrigation_water": 60.2,
+      "soil_reaction_ph": 18
+    },
+    {
+      "dissolved_salts": 5.6,
+      "electrical_energy": 7.8,
+      "volume_of_irrigation_water": 65.5,
+      "soil_reaction_ph": 16.8
+    },
+    {
+      "dissolved_salts": 4.23,
+      "electrical_energy": 7.85,
+      "volume_of_irrigation_water": 60.24,
+      "soil_reaction_ph": 16.25
+    },
+    {
+      "dissolved_salts": 3.49,
+      "electrical_energy": 14.59,
+      "volume_of_irrigation_water": 53.18,
+      "soil_reaction_ph": 16.29
+    },
+    {
+      "dissolved_salts": 10.15,
+      "electrical_energy": 4.21,
+      "volume_of_irrigation_water": 62.14,
+      "soil_reaction_ph": 9.42
+    },
+    {
+      "dissolved_salts": 4.6,
+      "electrical_energy": 8.94,
+      "volume_of_irrigation_water": 34.12,
+      "soil_reaction_ph": 16.39
+    },
+    {
+      "dissolved_salts": 9.15,
+      "electrical_energy": 6.29,
+      "volume_of_irrigation_water": 44.59,
+      "soil_reaction_ph": 14.59
+    },
+    {
+      "dissolved_salts": 6.69,
+      "electrical_energy": 4.19,
+      "volume_of_irrigation_water": 53.49,
+      "soil_reaction_ph": 11.94
+    },
+    {
+      "dissolved_salts": 10.39,
+      "electrical_energy": 62.43,
+      "volume_of_irrigation_water": 56.19,
+      "soil_reaction_ph": 8.93
+    },
+    {
+      "dissolved_salts": 4.3,
+      "electrical_energy": 5.7,
+      "volume_of_irrigation_water": 59.3,
+      "soil_reaction_ph": 16.3
+    },
+    {
+      "dissolved_salts": 8.38,
+      "electrical_energy": 9.14,
+      "volume_of_irrigation_water": 44.38,
+      "soil_reaction_ph": 11.04
+    },
+    {
+      "dissolved_salts": 6.98,
+      "electrical_energy": 10.48,
+      "volume_of_irrigation_water": 66.41,
+      "soil_reaction_ph": 10.29
+    },
+    {
+      "dissolved_salts": 39.43,
+      "electrical_energy": 11.99,
+      "volume_of_irrigation_water": 77.53,
+      "soil_reaction_ph": 19.42
+    },
+    {
+      "dissolved_salts": 4,
+      "electrical_energy": 48,
+      "volume_of_irrigation_water": 66,
+      "soil_reaction_ph": 13.25
+    }
+  ]
 }
