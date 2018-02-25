@@ -125,7 +125,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-center display-1 text-capitalize border border-primary bg-gradient text-light" id="sd\\">AgriWave</h1>
+                        <a href="welcome"><h1 class="text-center display-1 text-capitalize border border-primary bg-gradient text-light" id="sd\\">AgriWave</h1> </a>
                         <p class="text-success text-center"><b>We're here to deliver a product that connects the agricultural and data digital world using core technologies in modeling and data analytics to enable a variety of consumers to improve productivity, quality, safety, and sustainability.&nbsp;</b></p>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                 <h3>Dissolved Salts Alerts</h3>
                 <div ng-repeat = "alert in salt_alerts">
                     <p>There was a <%alert.alert_type%> in dissolved salt levels on week <%alert.week_number%> 
-                        with a discrepancy of <%alert.discrepancy%> mg/m^3</p>
+                        with a discrepancy of <%alert.discrepancy%> mg/m<sup>3</sup></p>
                 </div>
             </div>
 
